@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* DEFAULT CSS STARTS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+/* DEFAULT CSS ENDS */
+
+/* CARD STARTS */
+
+#card{
+    color: hsl(0, 0%, 100%);
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(233, 47%, 7%);
+}
+.cardCnt{
+    width: 1140px;
+    height: 460px;
+    border-radius: 12px;
+    background-color:  hsl(244, 38%, 16%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardCnt .cardtext{
+    width: 50%;
+}
+.cardCnt .cardtext .text{
+    margin: 60px;
+}
+.cardCnt .cardtext .text h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.cardCnt .cardtext .text h2>span{
+    color: hsl(277, 64%, 61%);
+}
+.cardCnt .cardtext .text p{
+    width: 400px;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 25px;
+}
+.cardCnt .cardtext .text .number{
+    margin-top: 90px;
+}
+.cardCnt .cardtext .text .number div{
+    margin: 0px 30px;
+}
+.cardCnt .cardtext .text .number h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.cardCnt .cardtext .text .number span{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.cardCnt .cardbg{
+    width: 50%;
+} 
+.cardbg img{
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 570px;
+    height: 460px;
+}
+
+/* CARD ENDS */
+
+/* FOOTER STARTS */
+
+footer {
+    font-weight: 700;
+    text-align: center;
+
+}
+footer a{
+    color: hsl(223, 47%, 23%);
+}
+footer a:hover{
+    color:  hsl(224, 23%, 55%) ;
+}
+
+/* FOOTER ENDS */
